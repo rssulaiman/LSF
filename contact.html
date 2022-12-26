@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>
+        Langue des signes française | Contactez nous
+    </title>
+    <link rel= "stylesheet" href= "style.css">
+</head>
+<body>
+<header>
+    <nav class="menu">
+        <a href="index.html">
+            <img src="logo.png" style="width: 100px; height: 100px" alt="Logo">
+        </a>
+        <ul class="nav-links">
+            <!-- Boutons next et previous -->
+            <li class="nav-item">
+                <a class="btn" href="alphabet.html">
+                    Alphabet
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="btn" href="quotidien.html">
+                    Mots au quotidien
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="btn" href="test.html">
+                    Faire un test
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="btn" href="contact.html">
+                    Contactez-nous
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<section class="content">
+    <div class="textbox">
+        <h1>Contactez-nous</h1>
+        <h3>
+            Vous avez une question? Vous avez besoin daide pour apprendre la LSF de facon more pro? Vous avez des idees ou suggestions a nous proposer pour ameliorer notre site? Vous voulez rejoindre notre team?
+            Nhesitez pas a nous contacter en remplissant ce formulaire
+        </h3>
+        <form name="contact" action="#" class="box" id="contact" onsubmit="">
+            <strong class="contactBox"><label>
+                Nom :
+                <br><input class="box" type="text" name="text">
+            </label></strong><br>
+            <strong class="contactBox"><label>
+                Prenom :
+                <br><input class="box" type="text" name="text">
+            </label></strong><br>
+            <strong class="contactBox"><label>
+                Email :
+                <br><input class="box" type="text" name="text">
+            </label></strong><br>
+            <strong class="contactBox"><label for="date">Date :</label></strong><br>
+            <input class="box" type="date" id="date" name="date"
+                   value="2022-11-17"
+                   min="2022-01-01" max="2022-12-31"><br>
+            <strong class="contactBox"><label for="tacheperso">Categorie/Motif de message :</label></strong><br>
+            <select name="tacheperso" id="tacheperso">
+                <option value="">Prendre un rendez-vous</option>
+                <option value="rdv">Reserver un cours prive avec expert</option>
+                <option value="concert">Donner des suggestions pour ameliorer notre site</option>
+                <option value="facture">Rejoindre notre team</option>
+                <option value="facture">Autre</option>
+            </select><br>
+            <div class="contactBox">
+                <label for="message">
+                    Message :
+                </label>
+                <br>
+                <textarea id="message" class="box" name="text"></textarea>
+            </div>
+            <br>
+
+            <div class="buttons">
+                <button type="reset">
+                    Annuler
+                </button>
+                <button type="submit">
+                    Ajouter
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+</body>
+</html>

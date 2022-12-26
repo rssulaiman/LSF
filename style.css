@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    color: #fff;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-image: url(background.jpg);
+}
+
+header, section, footer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu ul {
+    list-style: none;
+    display: flex;
+}
+
+header .menu ul li {
+    margin-left: 10px;
+}
+
+.slider {
+    margin : 50px auto;
+}
+
+.img-box img {
+    box-shadow: 10px 10px 10px #054384;
+    margin-bottom: 2px;
+    border-radius: 25px;
+}
+
+.img-box-gif img {
+    box-shadow: 10px 10px 10px #054384;
+    margin-bottom: 2px;
+    border-radius: 25px;
+}
+
+.btn {
+    border : none;
+    outline : none;
+    background : rgb(24, 98, 216);
+    padding : 10px 20px;
+    font-size : 20px;
+    color : #ddd;
+    cursor : pointer;
+    margin : 10px auto;
+}
+
+.btn:hover {
+    background: #111;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: xx-large;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+h3 {
+    font-family: Georgia, serif;
+    font-size: x-large;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.para1 {
+    font-family: Georgia, serif;
+    font-size: xx-large;
+    font-weight: 900;
+    color: #e67105;
+}
+
+.para2 {
+    line-height: 1.5rem;
+    font-family: Georgia, serif;
+    font-size: large;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.description {
+    font-family: Georgia, serif;
+    color: #ffffff;
+}
+
+.contactBox {
+    font-family: Georgia, serif;
+    color: #ffffff;
+}
+
+.box {
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.textbox {
+    width: 70%;
+    padding: 5px 25px;
+}
+.menu {
+    /*width: 30%;*/
+}
+.images {
+    /*width: 20%;*/
+}
+
+.content {
+    padding: 20px 0 !important;
+    margin-top: 30px;
+}
+
+img {
+    width: 300px;
+    max-height: 300px;
+}
