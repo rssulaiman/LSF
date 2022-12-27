@@ -39,17 +39,52 @@ header .menu ul li {
     box-shadow: 10px 10px 10px #054384;
     margin-bottom: 2px;
     border-radius: 25px;
+    margin-left: 50%;
+
 }
 
 .img-box-gif img {
     box-shadow: 10px 10px 10px #054384;
     margin-bottom: 2px;
     border-radius: 25px;
+    margin-left: 50%;
 }
 
 .btn {
     border : none;
     outline : none;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background : rgb(24, 98, 216);
+    padding : 10px 20px;
+    font-size : 20px;
+    color : #ddd;
+    cursor : pointer;
+    margin : 10px auto;
+
+}
+
+.reponse {
+    margin-left: -7%;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: x-large;
+    font-weight: 100;
+    color: #ffffff; 
+}
+
+.img-box-gif1 img {
+    box-shadow: 10px 10px 10px #054384;
+    margin-bottom: 2px;
+    border-radius: 25px;
+    margin-left: 35%;
+}
+
+.btn-prev, .btn-next, .btn-contact {
+    border : none;
+    outline : none;
+    margin-bottom: 5px;
+    border-radius: 15px;
     background : rgb(24, 98, 216);
     padding : 10px 20px;
     font-size : 20px;
@@ -58,11 +93,22 @@ header .menu ul li {
     margin : 10px auto;
 }
 
-.btn:hover {
-    background: #111;
+.btn-prev {
+    margin-left: 53%;
+}
+
+.btn-next {
+    margin-left: 1%;
+}
+
+.btn:hover, .btn-prev:hover, .btn-next:hover, .btn-contact:hover {
+    background: rgb(222, 125, 6);
 }
 
 h1 {
+    border: 3px solid rgb(222, 125, 6);
+    margin-left: 35%;
+    text-align: center;
     font-family: Georgia, serif;
     font-size: xx-large;
     font-weight: 900;
@@ -70,6 +116,9 @@ h1 {
 }
 
 h3 {
+    margin-left: 35%;
+    margin-bottom: 50px;
+    text-align: center;
     font-family: Georgia, serif;
     font-size: x-large;
     font-weight: 100;
@@ -77,10 +126,12 @@ h3 {
 }
 
 .para1 {
+    text-align: center;
     font-family: Georgia, serif;
     font-size: xx-large;
     font-weight: 900;
     color: #e67105;
+    margin-left: 20%;
 }
 
 .para2 {
@@ -89,6 +140,7 @@ h3 {
     font-size: large;
     font-weight: 100;
     color: #ffffff;
+    margin-left: 20%;
 }
 
 .description {
@@ -102,8 +154,9 @@ h3 {
 }
 
 .box {
-    margin-bottom: 5px;
     border-radius: 10px;
+    margin-left: 50%;
+    left: 30%;
 }
 
 .textbox {
@@ -126,3 +179,39 @@ img {
     width: 300px;
     max-height: 300px;
 }
+
+
+
+
+
+
+
+
+
+table, td, th {
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    margin-left: 20%;
+    margin-bottom: 40px;
+  }
+  
+  .rcorners {
+    border-radius: 25px;
+    background: #e67105;  
+    width: 250px;
+    height: 100px;
+    font-size:25px;
+    color:white;
+    text-align: center;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rcorners2 {
+    border-radius: 25px;
+    background: #edb581;
+    padding: 0px;
+    width: 250px;
+    height: 100px;
+  }
